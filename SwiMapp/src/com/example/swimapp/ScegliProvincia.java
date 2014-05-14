@@ -1,41 +1,63 @@
 package com.example.swimapp;
+import java.util.ArrayList;
+import java.util.List;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.Spinner;
+import android.widget.Toast;
  
 public class ScegliProvincia extends Activity {
-    /** Called when the activity is first created. */
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.scegliprovincia);
  
-        /*TextView txtName = (TextView) findViewById(R.id.txtName);
-        TextView txtEmail = (TextView) findViewById(R.id.txtEmail);
-        Button btnClose = (Button) findViewById(R.id.btnClose);
+  private Spinner spinner1;
+  private Button btnSubmit;
+  private String value;
+
+  Intent nuovaPagina, indietro;
  
-        Intent i = getIntent();
-        // Receiving the Data
-        String name = i.getStringExtra("name");
-        String email = i.getStringExtra("email");
-        Log.e("Second Screen", name + "." + email);*/
+  @Override
+  public void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.scegliprovincia);
  
-        // Displaying Received data
-       /* txtName.setText(name);
-        txtEmail.setText(email);*/
+	addListenerOnButton();
+	addListenerOnSpinnerItemSelection();
+	nuovaPagina = new Intent(this, MappaEventi.class);
+  }
  
-        // Binding Click event to Button
-       /*btnClose.setOnClickListener(new View.OnClickListener() {
+  // add items into spinner dynamically
  
-            public void onClick(View arg0) {
-                //Closing SecondScreen Activity
-                finish();
-            }
-        });*/
+  public void addListenerOnSpinnerItemSelection() {
+	spinner1 = (Spinner) findViewById(R.id.spinner1);
+	spinner1.setOnItemSelectedListener(new CustomOnItemSelectedListener());
+  }
+
+	
+  // get the selected dropdown list value
+  public void addListenerOnButton() {
+	spinner1 = (Spinner) findViewById(R.id.spinner1);
+	btnSubmit = (Button) findViewById(R.id.cerca);
  
-    }
+	btnSubmit.setOnClickListener(new OnClickListener() {
+	  @Override
+	  public void onClick(View v) {
+ 
+		  value = String.valueOf(spinner1.getSelectedItem());
+		  
+			//nuovaPagina.putExtra("Provincia", value);
+			startActivity(nuovaPagina);
+	  }
+	  
+
+	  
+ 
+	});
+	
+	
+	
+  }
 }

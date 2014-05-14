@@ -6,15 +6,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#2F3E47"
     tools:context="com.example.swimapp.MainActivity$PlaceholderFragment" >
+
+   
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Image"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo_swimapp" />
 
     <Button
         android:id="@+id/piscine"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/eventi"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="174dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="115dp"
         android:text="Cerca piscine" />
 
     <Button
@@ -22,8 +33,19 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/piscine"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="93dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_marginBottom="55dp"
         android:text="Cerca eventi" />
+
+    <Button
+        android:id="@+id/esci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="#6E6E6E"
+        android:text="Esci"
+        android:textColor="#FF0000" />
 
 </RelativeLayout>

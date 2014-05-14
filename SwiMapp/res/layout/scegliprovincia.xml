@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2F3E47"
     android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Scegli Provincia" />
+        android:layout_gravity="top"
+        android:text="Scegli provincia:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt" />
+
+        <Button
+            android:id="@+id/cerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5BA4E8"
+            android:text="Cerca" />
+
+        <Button
+            android:id="@+id/indietro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indietro"
+            android:textColor="#5BA4E8" />
 
 </LinearLayout>
