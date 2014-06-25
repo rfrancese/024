@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventi>
+    <evento>
+        <paese>Salerno</paese>
+        <lat>40.683333</lat>
+        <long>14.783333</long>
+    </evento>
+    
+    <evento>
+        <paese>Napoli</paese>
+        <lat>40.716667</lat>
+        <long>14.166667</long>
+    </evento>
+    
+    <evento>
+        <paese>Caserta</paese>
+        <lat>41.066667</lat>
+        <long>14.333333</long>
+    </evento>
+    
+    <evento>
+        <paese>Avellino</paese>
+        <lat>40.9</lat>
+        <long>14.783333</long>
+    </evento>
+    
+    <evento>
+        <paese>Benevento</paese>
+        <lat>41.133333</lat>
+        <long>14.75</long>
+    </evento>
+    
+</eventi>

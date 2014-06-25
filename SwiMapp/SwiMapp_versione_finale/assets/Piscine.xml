@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<piscine>
+    <piscina>
+        <paese>Nocera Inferiore</paese>
+        <nome>Olimpia Sport Nocera</nome>
+        <lat>40.765615</lat>
+        <long>14.654421</long>
+        <telefono>339 7871320</telefono>
+    </piscina>
+   
+    <piscina>
+        <paese>Angri</paese>
+        <nome>Olimpia Sport</nome>
+        <lat>40.730773</lat>
+        <long>14.557238</long>
+        <telefono>081 949669</telefono>
+    </piscina>
+    
+    <piscina>
+        <paese>Pagani</paese>
+        <nome>Diver's Drive Fitness Club</nome>
+        <lat>40.758761</lat>
+        <long>14.615754</long>
+        <telefono>081 5155704</telefono>
+    </piscina>
+    
+    <piscina>
+        <paese>Napoli</paese>
+        <nome>Piscina Scandone</nome>
+        <lat>40.822128</lat>
+        <long>14.180871</long>
+        <telefono>081 570 2636</telefono>
+    </piscina>
+    
+     <piscina>
+        <paese>Pompei</paese>
+        <nome>Associazione Ss Acquatix Atleticos Pompei Ss Arl</nome>
+        <lat>40.752492</lat>
+        <long>14.499619</long>
+        <telefono>081 850 6318</telefono>
+    </piscina>
+    
+      <piscina>
+        <paese>Telese Terme</paese>
+        <nome>Piscina Seneta</nome>
+        <lat>41.221070</lat>
+        <long>14.533865</long>
+        <telefono>0824 975629</telefono>
+    	</piscina>
+    
+       <piscina>
+        <paese>Poggiomarino</paese>
+        <nome>Sporting Club Di Costante Giulio Antonio & C. S.R.L.</nome>
+        <lat>40.811303</lat>
+        <long>14.545935</long>
+        <telefono>081 528 1447</telefono>
+    	</piscina>
+    
+         <piscina>
+        <paese>Fisciano</paese>
+        <nome>Piscina Universitaria</nome>
+        <lat>40.771443</lat>
+        <long>14.791016</long>
+    	</piscina>
+    
+        <piscina>
+        <paese>Napoli</paese>
+        <nome>Sporting Club Flegreo</nome>
+        <lat>40.900605</lat>
+        <long>14.102311</long>
+        <telefono>081 524 6246</telefono>
+        </piscina>
+        
+        <piscina>
+        <paese>San Rufo</paese>
+        <nome>Meta Sport - Centro Sportivo Meridionale</nome>
+        <lat>40.425049</lat>
+        <long>15.494424</long>
+        <telefono>0975 564077</telefono>
+        </piscina>
+        
+                
+        <piscina>
+        <paese>Battipaglia</paese>
+        <nome>Balnæa Sport e Wellness</nome>
+        <lat>40.605948</lat>
+        <long>14.986987</long>
+        <telefono>0828 302111</telefono>
+        </piscina>
+        
+        <piscina>
+        <paese>Aversa</paese>
+        <nome>Piscina Poseidon M.G</nome>
+        <lat>40.986591</lat>
+        <long>14.193621</long>
+        <telefono>081 501 7281</telefono>
+        </piscina>
+        
+        <piscina>
+        <paese>Napoli</paese>
+        <nome>Piscina Vomero Nuoto Club</nome>
+        <lat>40.853642</lat>
+        <long>14.234209</long>
+        <telefono>081 544 8769</telefono>
+        </piscina>
+        
+        <piscina>
+        <paese>Caserta</paese>
+        <nome>Stadio del Nuoto</nome>
+        <lat>41.079872</lat>
+        <long>14.346906</long>
+        <telefono>-</telefono>
+        </piscina>
+        
+        <piscina>
+        <paese>Salerno</paese>
+        <nome>Rari Nantes Nuoto Salerno</nome>
+        <lat>40.702510</lat>
+        <long>14.787189</long>
+        <telefono>089 335727</telefono>
+        </piscina>
+        
+       <piscina>
+        <paese>Avellino</paese>
+        <nome>Country Sport Avellino</nome>
+        <lat>40.939696</lat>
+        <long>14.797717</long>
+        <telefono>0825 39641</telefono>
+        </piscina>
+        
+                                                                                                                                                               
+</piscine>
